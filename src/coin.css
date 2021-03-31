@@ -1,4 +1,4 @@
-coin-container {
+.coin-container {
     display: flex;
     justify-content: center;
   }
@@ -51,12 +51,16 @@ coin-container {
     width: 155px;
   }
   
-  .coin-marketcap {
+ .market-cap {
     width: 230px;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
   }
   
   .coin-percent {
     width: 100px;
+  
   }
   
   .red {
@@ -66,3 +70,4 @@ coin-container {
   .green {
     color: #11d811;
   }
+
