@@ -5,7 +5,7 @@ const table_header = () => {
     return (
         <div className='coin-fields'>
                 <p>Name</p>
-                <p>abbreviation</p>
+                <p>Abbreviation</p>
                 <p>Price</p>
                 <p>Volume</p>
                 <p>Percentage</p>
