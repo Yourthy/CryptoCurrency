@@ -1,5 +1,5 @@
 import React from 'react'
-import './coin.css';
+import './Coin.css';
 
 const coin = ({name, image, price, symbol, volume, priceChange, marketcap}) => {
     return (
@@ -16,7 +16,7 @@ const coin = ({name, image, price, symbol, volume, priceChange, marketcap}) => {
                     {priceChange < 0 ? (
                         <p className='coin-percent red'>{priceChange.toFixed(2)}%</p>
                     ): (<p className='coin-percent green'>{priceChange.toFixed(2)}%</p>)}
-                    <p className='market-cap'>Mkt Cap: ${marketcap.toLocaleString()}</p>
+                    <p className='market-cap'>${marketcap.toLocaleString()}</p>
                 </div>                
             </div>
         </div>
