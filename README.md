@@ -1,4 +1,4 @@
-# Todo App (made with React)
+# CryptoCurrency (made with React)
 
 Chris' CryptoCurrency is a simple, single-page crypto currency application that gives real time price, volume, percentage and market cap information about the specific Crypto. 
 
